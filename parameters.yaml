@@ -1,0 +1,42 @@
+Parameters:
+  demoVPCCIDR:
+    Type: String
+    Default: 10.0.0.0/16
+    Description: Please enter CIDR for VPC.
+
+  PublicSubnet1CIDR:
+    Type: String
+    Default: 10.0.1.0/24
+    Description: Please enter Public Subnet1 CIDR
+  PublicSubnet1AZ:
+    Type: String
+    Default: us-east-1a
+    Description: Please enter AZ for public subnet1.
+
+  PublicSubnet2CIDR:
+    Type: String
+    Default: 10.0.2.0/24
+    Description: Please enter Public Subnet2 CIDR
+  PublicSubnet2AZ:
+    Type: String
+    Default: us-east-1b
+    Description: Please enter AZ for public subnet2.
+
+  PrivateSubnet1CIDR:
+    Type: String
+    Default: 10.0.128.0/24
+    Description: Please enter Private Subnet1 CIDR
+  PrivateSubnet1AZ:
+    Type: String
+    Default: us-east-1a
+    Description: Please enter AZ for private subnet1.
+
+  PrivateSubnet2CIDR:
+    Type: String
+    Default: 10.0.129.0/24
+    Description: Please enter Private Subnet2 CIDR.
+  PrivateSubnet2AZ:
+    Type: String
+    Default: us-east-1b
+    Description: Please enter AZ for private subnet2.
+  
